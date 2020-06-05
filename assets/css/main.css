@@ -37,6 +37,13 @@ body {
 }
 
 
+/*About*/
+
+.about-text {
+    line-height: 35px;
+}
+
+
 /*Media Queries*/
 
 @media screen and (max-width: 768px) {
