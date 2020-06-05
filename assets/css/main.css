@@ -33,3 +33,12 @@ body {
     color: orange;
     font-size: 2rem;
 }
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {
+    .introduction-title {
+        margin-top: 2rem;
+    }
+}
