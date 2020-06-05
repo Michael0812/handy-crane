@@ -44,6 +44,13 @@ body {
 }
 
 
+/*Equipment*/
+
+.equipment-border {
+    border: 2px orange solid;
+}
+
+
 /*Media Queries*/
 
 @media screen and (max-width: 768px) {
