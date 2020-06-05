@@ -50,4 +50,14 @@ body {
     .introduction-title {
         margin-top: 2rem;
     }
+    .about-text {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .about-text {
+        line-height: 20px;
+        margin-top: 1rem;
+    }
 }
