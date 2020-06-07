@@ -23,7 +23,7 @@ body {
 
 .carousel-inner img {
     width: 100%;
-    height: 80vh;
+    height: 85vh;
 }
 
 .carousel-caption {
@@ -40,7 +40,9 @@ body {
 /*About*/
 
 .about-text {
-    line-height: 35px;
+    line-height: 30px;
+    margin-top: 1rem;
+    width: 80%;
 }
 
 
@@ -67,6 +69,48 @@ h1 {
     -webkit-column-gap: 20px;
     -moz-column-gap: 20px;
     column-gap: 20px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    margin: 4% auto;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.modal-img,
+.model-vid {
+    width: 100%;
+    height: auto;
+}
+
+.modal-body {
+    padding: 0px;
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {
+    .introduction-title {
+        margin-top: 2rem;
+    }
+    .about-text,
+    .about-title {
+        margin-top: 2rem;
+    }
+    .carousel-inner img {
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .about-text {
+        line-height: 20px;
+        margin-top: 1rem;
+    }
 }
 
 @media (max-width:1200px) {
@@ -96,43 +140,5 @@ h1 {
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
-    }
-}
-
-.card {
-    width: 100%;
-    height: auto;
-    margin: 4% auto;
-    cursor: pointer;
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-}
-
-.modal-img,
-.model-vid {
-    width: 100%;
-    height: auto;
-}
-
-.modal-body {
-    padding: 0px;
-}
-
-
-/*Media Queries*/
-
-@media screen and (max-width: 768px) {
-    .introduction-title {
-        margin-top: 2rem;
-    }
-    .about-text {
-        margin-top: 2rem;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .about-text {
-        line-height: 20px;
-        margin-top: 1rem;
     }
 }
