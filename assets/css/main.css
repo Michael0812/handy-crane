@@ -91,6 +91,24 @@ h1 {
 }
 
 
+/*Footer*/
+
+.page-footer {
+    background-color: #696969;
+}
+
+.fa-home,
+.fa-envelope,
+.fa-phone,
+.fa-print {
+    font-size: 1rem;
+}
+
+.social-media {
+    font-size: 1.5rem;
+}
+
+
 /*Media Queries*/
 
 @media screen and (max-width: 768px) {
