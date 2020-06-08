@@ -46,13 +46,6 @@ body {
 }
 
 
-/*Equipment*/
-
-.equipment-border {
-    border: 2px orange solid;
-}
-
-
 /*Gallery*/
 
 h1 {
@@ -110,6 +103,12 @@ h1 {
 
 
 /*Media Queries*/
+
+@media screen and (min-width: 768px) {
+    .equipment-border {
+        border: 2px orange solid;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .introduction-title {
