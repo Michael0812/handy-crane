@@ -55,263 +55,238 @@
 
     <!--Carousel-->
 
-    <div class="section-carousel container-responsive">
+    <div id="home-page-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#home-page-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#home-page-carousel" data-slide-to="1"></li>
+            <li data-target="#home-page-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item home-carousel-item active">
+                <div id="carousel-img-1" class="d-block w-100 carousel-image"></div>
+            </div>
+            <div class="carousel-item home-carousel-item">
+                <div id="carousel-img-2" class="d-block w-100 carousel-image"></div>
+            </div>
+            <div class="carousel-item home-carousel-item">
+                <div id="carousel-img-3" class="d-block w-100 carousel-image"></div>
+            </div>
+        </div>
+    </div>
+    <!--End Carousel-->
+
+
+    <!--Introduction-->
+    <div class="container introduction mt-5 pt-5">
+        <div class="row justify-content-center">
+
+            <div class="col-sm-12 col-md-3">
+
+                <h4 class="text-center introduction-title text-uppercase font-weight-bold"><i class="fas fa-exclamation-triangle mr-2"></i>equipment</h4>
+                <ol>
+                    <li class="mt-3 ml-5">Maeda 285 C2</li>
+                    <li class="mt-3 ml-5">Maeda 285 C3</li>
+                </ol>
+            </div>
+
+            <div class="col-sm-12 col-md-3">
+                <h4 class="text-center introduction-title text-uppercase font-weight-bold"><i class="fas fa-tools mr-2"></i>usage</h4>
+                <p class="text-center mt-3"><b>Application:</b>&nbsp;glass, steel structures, wooden structures, moving machines, etc.</p>
+            </div>
+
+            <div class="col-sm-12 col-md-3">
+                <h4 class="text-center introduction-title text-uppercase font-weight-bold"><i class="fas fa-map-marker-alt mr-2"></i>where</h5>
+                    <p class="text-center mt-3">We operate throughout the country. We are from Bournemouth and we do not add transportation costs</p>
+            </div>
+        </div>
+    </div>
+    <!--End Introduction-->
+
+
+    <!--About-->
+    <div id="about"></div>
+    <div class="container about mt-5 pt-5">
+
+        <div class="row">
+            <div class="col-sm-12 col-md-6 order-1">
+                <img src="assets/images/crane43.jpg" alt="crane image" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-6 mt-lg-4 order-2">
+                <h4 class="about-title">Handy Crane - Rental with an operator of work transfers and cost reduction</h4>
+                <p class="about-text">
+                    We offer a mini crane rental service with an operator. This is an extremely convenient solution because you do not need to train your own employees, which is known to generate significant costs. Construction equipment is extremely expensive and rent solves
+                    this problem. The mini crane is ideally suited as a feeder for heavy building materials, as well as for precision assembly works, such as inserting glass panes. High lifting capacity, mobility, controllability and a long boom ensure
+                    safety and accuracy of work.
+                </p>
+            </div>
+        </div>
+
+        <div class="row pt-2 mt-5">
+            <div class="col-sm-12 col-md-6 mt-lg-4 order-4 order-md-3 order-lg-3">
+                <h4 class="about-title">Mini crane - an experienced operator is the key</h4>
+                <p class="about-text">Construction projects must be completed within a certain period of time and penalties are imposed for each delay, which is why a construction company should rent heavy equipment together with the operator. This is a guarantee that in the
+                    event of a breakdown an experienced employee is available who can deal with it on site, and in the event of a major problem substitute equipment is provided, so there are no delays.
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 order-3 order-md-4 order-lg-4">
+                <img src="assets/images/crane1.jpg" alt="crane image" class="img-fluid">
+            </div>
+        </div>
+
+    </div>
+    <!--End About-->
+
+
+    <!--Equipment-->
+
+    <!--Maeda 285 C2-->
+    <div id="equipment"></div>
+    <div class="container equipment">
+        <h1 class="equipment-title mt-5 mb-5 text-center">Equipment</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <img src="assets/images/maeda285-c2.png" alt="equipment" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-6  equipment-border">
+                <h3 class="equipment-name text-center mt-lg-5 mt-2">Maeda 285-C2</h3>
+                <p class="mt-4"><b>Carrying capacity:</b> 2.980 kg</p>
+                <p><b>Lifting height:</b> 12.52 m</p>
+                <p><b>Suction cup:</b> Viavac 500</p>
+                <p>Support locking system</p>
+                <p>High-performance lift with hydraulic disc brake</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Maeda 285 C3-->
+    <div class="container equipment mt-5 pt-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <img src="assets/images/maeda285-c3.png" alt="equipment" class="img-fluid">
+            </div>
+            <div class="col-sm-12 col-md-6 equipment-border">
+                <h3 class="equipment-name text-center mt-lg-5 mt-2">Maeda 285-C3</h3>
+                <p class="mt-4"><b>Load capacity</b>Load capacity 2.820 kg</p>
+                <p><b>Lifting height</b> 8.70 m</p>
+                <p><b>Suction cup:</b> Viavac 500</p>
+                <p>Support locking system</p>
+                <p>High-performance lift with hydraulic disc brake</p>
+
+            </div>
+        </div>
+    </div>
+    <!--End Equipment-->
+
+
+    <!--Gallery-->
+    <div id="gallery"></div>
+    <div class="container gallery mt-5 pt-5">
         <div class="row">
             <div class="col">
 
-                <div id="demo" class="carousel slide" data-ride="carousel">
-                    <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
+                <h2 class="mt-5 text-center mb-3">Have look how we work</h2>
+                <div id="gallery" class="container-fluid">
+                    <img src="assets/images/crane1.jpg" class="card img-responsive">
+                    <img src="assets/images/crane2.jpg" class="card img-responsive">
+                    <img src="assets/images/crane3.jpg" class="card img-responsive">
+                    <img src="assets/images/crane4.jpg" class="card img-responsive">
+                    <img src="assets/images/crane5.jpg" class="card img-responsive">
+                    <img src="assets/images/crane41.jpg" class="card img-responsive">
+                    <img src="assets/images/crane7.jpg" class="card img-responsive">
+                    <img src="assets/images/crane10.jpg" class="card img-responsive">
+                    <img src="assets/images/crane11.jpg" class="card img-responsive">
+                    <img src="assets/images/crane12.jpg" class="card img-responsive">
+                    <img src="assets/images/crane13.jpg" class="card img-responsive">
+                    <img src="assets/images/crane16.jpg" class="card img-responsive">
+                    <img src="assets/images/crane18.jpg" class="card img-responsive">
+                    <img src="assets/images/crane19.jpg" class="card img-responsive">
+                    <img src="assets/images/crane24.jpg" class="card img-responsive">
+                    <img src="assets/images/crane27.jpg" class="card img-responsive">
+
+                </div>
+
+                <div id="myModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-body">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--End Gallery-->
+
+    <!--Footer-->
+    <div id="contact"></div>
+
+    <footer class="page-footer text-center font-small blue mt-5 pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+                <div class="col-md-4 mt-md-0 mt-3">
+
+                    <!--LOGO-->
+                    <a class="logo-footer pl-lg-5 ml-lg-5"><img src="assets/images/logo.png" alt="logo"></a>
+
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-4 mb-md-0 mb-3 text-white">
+
+                    <!--Contact-->
+                    <h5 class="text-uppercase">Contact</h5>
+                    <ul class="list-unstyled mt-4">
+                        <li>
+                            <p>
+                                <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-envelope mr-3"></i><a href="mailto:someone@yoursite.com?subject=Mail from Our Site" class="text-white">Email Us</a> </p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        </li>
+                        <li>
+                            <p>
+                                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        </li>
                     </ul>
+                </div>
 
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/images/crane13.jpg" alt="handy crane image" class="img-fluid">
-                            <div class="carousel-caption">
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/carousel-crane.jpg" alt="handy crane image" class="img-fluid">
-                            <div class="carousel-caption">
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/images/carousel-crane1.jpg" alt="handy crane image" class="img-fluid">
-                            <div class="carousel-caption">
-                                <h3>Lorem Ipsum</h3>
-                                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
+                <!-- Social Media-->
+                <div class="col-md-4 mb-md-0  mt-lg-5">
+
+                    <a class="fb-ic social-media">
+                        <i class="fab fa-facebook-f text-white mr-4"> </i>
                     </a>
-                    <a class="carousel-control-next" href="#demo" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
+                    <a class="tw-ic social-media">
+                        <i class="fab fa-twitter text-white mr-4"> </i>
+                    </a>
+                    <a class="ins-ic social-media">
+                        <i class="fab fa-instagram text-white"> </i>
                     </a>
                 </div>
             </div>
         </div>
-        <!--End Carousel-->
+        <hr class="clearfix w-100">
 
+        <!-- Copyright -->
+        <div class="footer-copyright text-white text-left ml-3 py-3">© 2020 Copyright:</div>
+        <!-- Copyright -->
 
-        <!--Introduction-->
-        <div class="container introduction mt-5 pt-5">
-            <div class="row justify-content-center">
+    </footer>
+    <!--End Footer-->
 
-                <div class="col-sm-12 col-md-3">
-
-                    <h4 class="text-center introduction-title text-uppercase font-weight-bold"><i class="fas fa-exclamation-triangle mr-2"></i>equipment</h4>
-                    <ol>
-                        <li class="mt-3 ml-5">Maeda 285 C2</li>
-                        <li class="mt-3 ml-5">Maeda 285 C3</li>
-                    </ol>
-                </div>
-
-                <div class="col-sm-12 col-md-3">
-                    <h4 class="text-center introduction-title text-uppercase font-weight-bold"><i class="fas fa-tools mr-2"></i>usage</h4>
-                    <p class="text-center mt-3"><b>Application:</b>&nbsp;glass, steel structures, wooden structures, moving machines, etc.</p>
-                </div>
-
-                <div class="col-sm-12 col-md-3">
-                    <h4 class="text-center introduction-title text-uppercase font-weight-bold"><i class="fas fa-map-marker-alt mr-2"></i>where</h5>
-                        <p class="text-center mt-3">We operate throughout the country. We are from Bournemouth and we do not add transportation costs</p>
-                </div>
-            </div>
-        </div>
-        <!--End Introduction-->
-
-
-        <!--About-->
-        <div id="about"></div>
-        <div class="container about mt-5 pt-5">
-
-            <div class="row">
-                <div class="col-sm-12 col-md-6 order-1">
-                    <img src="assets/images/crane43.jpg" alt="crane image" class="img-fluid">
-                </div>
-                <div class="col-sm-12 col-md-6 mt-lg-4 order-2">
-                    <h4 class="about-title">Handy Crane - Rental with an operator of work transfers and cost reduction</h4>
-                    <p class="about-text">
-                        We offer a mini crane rental service with an operator. This is an extremely convenient solution because you do not need to train your own employees, which is known to generate significant costs. Construction equipment is extremely expensive and rent solves
-                        this problem. The mini crane is ideally suited as a feeder for heavy building materials, as well as for precision assembly works, such as inserting glass panes. High lifting capacity, mobility, controllability and a long boom ensure
-                        safety and accuracy of work.
-                    </p>
-                </div>
-            </div>
-
-            <div class="row pt-2 mt-5">
-                <div class="col-sm-12 col-md-6 mt-lg-4 order-4 order-md-3 order-lg-3">
-                    <h4 class="about-title">Mini crane - an experienced operator is the key</h4>
-                    <p class="about-text">Construction projects must be completed within a certain period of time and penalties are imposed for each delay, which is why a construction company should rent heavy equipment together with the operator. This is a guarantee that
-                        in the event of a breakdown an experienced employee is available who can deal with it on site, and in the event of a major problem substitute equipment is provided, so there are no delays.
-                    </p>
-                </div>
-                <div class="col-sm-12 col-md-6 order-3 order-md-4 order-lg-4">
-                    <img src="assets/images/crane1.jpg" alt="crane image" class="img-fluid">
-                </div>
-            </div>
-
-        </div>
-        <!--End About-->
-
-
-        <!--Equipment-->
-
-        <!--Maeda 285 C2-->
-        <div id="equipment"></div>
-        <div class="container equipment">
-            <h1 class="equipment-title mt-5 mb-5 text-center">Equipment</h1>
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <img src="assets/images/maeda285-c2.png" alt="equipment" class="img-fluid">
-                </div>
-                <div class="col-sm-12 col-md-6  equipment-border">
-                    <h3 class="equipment-name text-center mt-lg-5 mt-2">Maeda 285-C2</h3>
-                    <p class="mt-4"><b>Carrying capacity:</b> 2.980 kg</p>
-                    <p><b>Lifting height:</b> 12.52 m</p>
-                    <p><b>Suction cup:</b> Viavac 500</p>
-                    <p>Support locking system</p>
-                    <p>High-performance lift with hydraulic disc brake</p>
-                </div>
-            </div>
-        </div>
-
-        <!--Maeda 285 C3-->
-        <div class="container equipment mt-5 pt-3">
-            <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <img src="assets/images/maeda285-c3.png" alt="equipment" class="img-fluid">
-                </div>
-                <div class="col-sm-12 col-md-6 equipment-border">
-                    <h3 class="equipment-name text-center mt-lg-5 mt-2">Maeda 285-C3</h3>
-                    <p class="mt-4"><b>Load capacity</b>Load capacity 2.820 kg</p>
-                    <p><b>Lifting height</b> 8.70 m</p>
-                    <p><b>Suction cup:</b> Viavac 500</p>
-                    <p>Support locking system</p>
-                    <p>High-performance lift with hydraulic disc brake</p>
-
-                </div>
-            </div>
-        </div>
-        <!--End Equipment-->
-
-
-        <!--Gallery-->
-        <div id="gallery"></div>
-        <div class="container gallery mt-5 pt-5">
-            <div class="row">
-                <div class="col">
-
-                    <h2 class="mt-5 text-center mb-3">Have look how we work</h2>
-                    <div id="gallery" class="container-fluid">
-                        <img src="assets/images/crane1.jpg" class="card img-responsive">
-                        <img src="assets/images/crane2.jpg" class="card img-responsive">
-                        <img src="assets/images/crane3.jpg" class="card img-responsive">
-                        <img src="assets/images/crane4.jpg" class="card img-responsive">
-                        <img src="assets/images/crane5.jpg" class="card img-responsive">
-                        <img src="assets/images/crane41.jpg" class="card img-responsive">
-                        <img src="assets/images/crane7.jpg" class="card img-responsive">
-                        <img src="assets/images/crane10.jpg" class="card img-responsive">
-                        <img src="assets/images/crane11.jpg" class="card img-responsive">
-                        <img src="assets/images/crane12.jpg" class="card img-responsive">
-                        <img src="assets/images/crane13.jpg" class="card img-responsive">
-                        <img src="assets/images/crane16.jpg" class="card img-responsive">
-                        <img src="assets/images/crane18.jpg" class="card img-responsive">
-                        <img src="assets/images/crane19.jpg" class="card img-responsive">
-                        <img src="assets/images/crane24.jpg" class="card img-responsive">
-                        <img src="assets/images/crane27.jpg" class="card img-responsive">
-
-                    </div>
-
-                    <div id="myModal" class="modal fade" role="dialog">
-                        <div class="modal-dialog">
-
-                            <!-- Modal content-->
-                            <div class="modal-content">
-                                <div class="modal-body">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!--End Gallery-->
-
-        <!--Footer-->
-        <div id="contact"></div>
-
-        <footer class="page-footer text-center font-small blue mt-5 pt-4">
-            <div class="container-fluid text-center text-md-left">
-                <div class="row">
-                    <div class="col-md-4 mt-md-0 mt-3">
-
-                        <!--LOGO-->
-                        <a class="logo-footer pl-lg-5 ml-lg-5"><img src="assets/images/logo.png" alt="logo"></a>
-
-                    </div>
-                    <hr class="clearfix w-100 d-md-none pb-3">
-                    <div class="col-md-4 mb-md-0 mb-3 text-white">
-
-                        <!--Contact-->
-                        <h5 class="text-uppercase">Contact</h5>
-                        <ul class="list-unstyled mt-4">
-                            <li>
-                                <p>
-                                    <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-                            </li>
-                            <li>
-                                <p>
-                                    <i class="fas fa-envelope mr-3"></i><a href="mailto:someone@yoursite.com?subject=Mail from Our Site" class="text-white">Email Us</a> </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                            </li>
-                            <li>
-                                <p>
-                                    <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Social Media-->
-                    <div class="col-md-4 mb-md-0  mt-lg-5">
-
-                        <a class="fb-ic social-media">
-                            <i class="fab fa-facebook-f text-white mr-4"> </i>
-                        </a>
-                        <a class="tw-ic social-media">
-                            <i class="fab fa-twitter text-white mr-4"> </i>
-                        </a>
-                        <a class="ins-ic social-media">
-                            <i class="fab fa-instagram text-white"> </i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <hr class="clearfix w-100">
-
-            <!-- Copyright -->
-            <div class="footer-copyright text-white text-left ml-3 py-3">© 2020 Copyright:</div>
-            <!-- Copyright -->
-
-        </footer>
-        <!--End Footer-->
-
-        <!--Scripts-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-        <script src="assets/js/main.js"></script>
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
