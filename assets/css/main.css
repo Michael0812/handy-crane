@@ -86,7 +86,8 @@ h1 {
 
 /*Footer*/
 
-.page-footer {
+.page-footer,
+.footer-copyright {
     background-color: #696969;
 }
 
