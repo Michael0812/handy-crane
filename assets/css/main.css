@@ -89,88 +89,6 @@ h1 {
     padding: 1%;
 }
 
-
-/*Quotes*/
-
-.quotes {
-    background-color: orange;
-    height: 24vh;
-}
-
-.quotes-phone {
-    font-size: 1.5rem;
-}
-
-
-/*Footer*/
-
-.page-footer,
-.footer-copyright {
-    background-color: #696969;
-}
-
-.fa-home,
-.fa-envelope,
-.fa-phone,
-.fa-print {
-    font-size: 1rem;
-}
-
-.social-media {
-    font-size: 1.5rem;
-}
-
-
-/*Media Queries*/
-
-@media screen and (min-width: 768px) {
-    .equipment-border {
-        border: 2px orange solid;
-    }
-    #gallery-images {
-        width: 65vw;
-    }
-}
-
-@media screen and (max-width: 990px) {
-    .nav-link {
-        background-color: #ffffff;
-        text-align: left;
-        height: auto;
-        width: 30vw;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .introduction-title {
-        margin-top: 2rem;
-    }
-    .about-text,
-    .about-title {
-        margin-top: 2rem;
-    }
-    .carousel-inner img {
-        height: 50vh;
-    }
-    .carousel-text {
-        width: 100%;
-        font-size: 1.2rem;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .about-text {
-        line-height: 20px;
-        margin-top: 1rem;
-    }
-}
-
-@media screen and (min-width: 600px) and (max-width: 800px) {
-    .quotes {
-        height: 30vh;
-    }
-}
-
 * {
     box-sizing: border-box;
 }
@@ -327,4 +245,86 @@ img.hover-shadow {
     -webkit-column-gap: 20px;
     -moz-column-gap: 20px;
     column-gap: 20px;
+}
+
+
+/*Quotes*/
+
+.quotes {
+    background-color: orange;
+    height: 24vh;
+}
+
+.quotes-phone {
+    font-size: 1.5rem;
+}
+
+
+/*Footer*/
+
+.page-footer,
+.footer-copyright {
+    background-color: #696969;
+}
+
+.fa-home,
+.fa-envelope,
+.fa-phone,
+.fa-print {
+    font-size: 1rem;
+}
+
+.social-media {
+    font-size: 1.5rem;
+}
+
+
+/*Media Queries*/
+
+@media screen and (min-width: 768px) {
+    .equipment-border {
+        border: 2px orange solid;
+    }
+    #gallery-images {
+        width: 65vw;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .nav-link {
+        background-color: #ffffff;
+        text-align: left;
+        height: auto;
+        width: 30vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .introduction-title {
+        margin-top: 2rem;
+    }
+    .about-text,
+    .about-title {
+        margin-top: 2rem;
+    }
+    .carousel-inner img {
+        height: 50vh;
+    }
+    .carousel-text {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .about-text {
+        line-height: 20px;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .quotes {
+        height: 30vh;
+    }
 }
