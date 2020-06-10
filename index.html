@@ -116,7 +116,7 @@
 
             <div class="col-sm-12 col-md-3">
                 <h4 class="text-center introduction-title text-uppercase font-weight-bold"><i class="fas fa-map-marker-alt mr-2"></i>where</h4>
-                <p class="text-center mt-3">We operate throughout the country. We are from Bournemouth and we do not add transportation costs</p>
+                <p class="text-center mt-3">We operate throughout the country. Free transport withing 20 miles of Bournemouth</p>
             </div>
         </div>
     </div>
@@ -222,46 +222,164 @@
 
     <!--Gallery-->
     <div id="gallery"></div>
-    <div class="container gallery mt-5 pt-5">
+    <div class="conatiner-fluid mt-5 pt-3 pb-3">
+        <h2 class="mt-5 text-center mb-4 pb-3">Take a look at our work</h2>
         <div class="row">
-            <div class="col">
 
-                <h2 class="mt-5 text-center mb-3">Take a look at our work</h2>
-                <div id="gallery-images" class="container-fluid">
-                    <img src="assets/images/crane1.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane2.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane3.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane4.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane5.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane41.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane7.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane10.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane11.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane12.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane13.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane16.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane18.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane19.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane24.jpg" class="card img-responsive" alt="crane-image">
-                    <img src="assets/images/crane27.jpg" class="card img-responsive" alt="crane-image">
+            <div id="gallery-images" class="container-fluid">
+                <div class="col">
+                    <img src="assets/images/crane1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane5.jpg" style="width:100%" onclick="openModal();currentSlide(5)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane41.jpg" style="width:100%" onclick="openModal();currentSlide(6)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane7.jpg" style="width:100%" onclick="openModal();currentSlide(7)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane10.jpg" style="width:100%" onclick="openModal();currentSlide(8)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane11.jpg" style="width:100%" onclick="openModal();currentSlide(9)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane12.jpg" style="width:100%" onclick="openModal();currentSlide(10)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane13.jpg" style="width:100%" onclick="openModal();currentSlide(11)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane16.jpg" style="width:100%" onclick="openModal();currentSlide(12)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane18.jpg" style="width:100%" onclick="openModal();currentSlide(13)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane19.jpg" style="width:100%" onclick="openModal();currentSlide(14)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane24.jpg" style="width:100%" onclick="openModal();currentSlide(15)" class="card hover-shadow cursor img-responsive">
+                </div>
+                <div class="col">
+                    <img src="assets/images/crane27.jpg" style="width:100%" onclick="openModal();currentSlide(16)" class="card hover-shadow cursor img-responsive">
+                </div>
+            </div>
+        </div>
 
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 16</div>
+                    <img src="assets/images/crane1.jpg" style="width:100%">
                 </div>
 
-                <div id="myModal" class="modal fade" role="dialog">
-                    <div class="modal-dialog">
-
-                        <!-- Modal content-->
-                        <div class="modal-content">
-                            <div class="modal-body">
-                            </div>
-                        </div>
-                    </div>
+                <div class="mySlides">
+                    <div class="numbertext">2 / 16</div>
+                    <img src="assets/images/crane2.jpg" style="width:100%">
                 </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 16</div>
+                    <img src="assets/images/crane3.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 16</div>
+                    <img src="assets/images/crane4.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">5 / 16</div>
+                    <img src="assets/images/crane5.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">6 / 16</div>
+                    <img src="assets/images/crane41.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">7 / 16</div>
+                    <img src="assets/images/crane7.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">8 / 16</div>
+                    <img src="assets/images/crane10.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">9 / 16</div>
+                    <img src="assets/images/crane11.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 16</div>
+                    <img src="assets/images/crane12.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">11 / 16</div>
+                    <img src="assets/images/crane13.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">12 / 16</div>
+                    <img src="assets/images/crane16.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">13 / 16</div>
+                    <img src="assets/images/crane18.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">14 / 16</div>
+                    <img src="assets/images/crane19.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">15 / 16</div>
+                    <img src="assets/images/crane24.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">16 / 16</div>
+                    <img src="assets/images/crane27.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
 
             </div>
         </div>
     </div>
     <!--End Gallery-->
+
+
+
+
+
+
 
 
     <!--CTA-->
