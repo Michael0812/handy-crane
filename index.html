@@ -222,7 +222,79 @@
 
     <!--Gallery-->
     <div id="gallery"></div>
-    <div class="conatiner-fluid mt-5 pt-3 pb-3">
+
+    <!--Carousel fot better UX visible only on md devices and less-->
+    <div class="container d-lg-none d-xl-none">
+        <h2 class="mt-5 text-center mb-4 pb-3">Take a look at our work</h2>
+        <div class="row">
+            <div class="col">
+
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/images/crane1.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane2.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane3.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane4.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane5.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane41.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane7.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane10.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane11.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane12.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane13.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane1.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane10.jpg" alt="handy crane">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/images/crane11.jpg" alt="handy crane">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!--Gallery visible only on lg devices-->
+    <div class="conatiner-fluid mt-5 pt-3 pb-3 d-none d-lg-block">
         <h2 class="mt-5 text-center mb-4 pb-3">Take a look at our work</h2>
         <div class="row">
 
