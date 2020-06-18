@@ -78,9 +78,9 @@ body {
 /*About*/
 
 .about-text {
-    line-height: 30px;
+    line-height: 27px;
     margin-top: 1rem;
-    width: 80%;
+    width: 90%;
 }
 
 
@@ -330,7 +330,7 @@ img.hover-shadow {
     }
     .about-text,
     .about-title {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
     .carousel-inner img {
         height: 50vh;
