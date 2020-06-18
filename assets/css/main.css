@@ -27,7 +27,7 @@ body {
 }
 
 .logo {
-    width: 18vw;
+    width: 20vw;
 }
 
 .home-carousel-item {
@@ -309,6 +309,9 @@ img.hover-shadow {
     #gallery-images {
         width: 65vw;
     }
+    .logo {
+        width: 13vw;
+    }
 }
 
 @media screen and (max-width: 990px) {
@@ -351,5 +354,11 @@ img.hover-shadow {
 @media screen and (min-width: 600px) and (max-width: 800px) {
     .quotes {
         height: 33vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        width: 30vw;
     }
 }
