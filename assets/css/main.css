@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 html {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: #000000;
     width: 100%;
     height: 100%;
     background-color: #ffffff;
@@ -22,8 +22,12 @@ body {
 
 .navbar {
     position: sticky;
-    height: 70px;
+    height: 80px;
     background-color: #ffffff;
+}
+
+.logo {
+    width: 18vw;
 }
 
 .home-carousel-item {
@@ -66,7 +70,7 @@ body {
 }
 
 .fas {
-    color: orange;
+    color: #FFA500;
     font-size: 2rem;
 }
 
@@ -90,8 +94,12 @@ body {
 h1 {
     font-size: 50px;
     text-align: center;
-    color: black;
+    color: #000000;
     padding: 1%;
+}
+
+.gallery-carousel {
+    max-height: 60vh;
 }
 
 * {
@@ -170,7 +178,7 @@ h1 {
     width: auto;
     padding: 16px;
     margin-top: -50px;
-    color: white;
+    color: #ffffff;
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
@@ -256,7 +264,7 @@ img.hover-shadow {
 /*Quotes*/
 
 .quotes {
-    background-color: orange;
+    background-color: #FFA500;
     height: 24vh;
 }
 
@@ -264,8 +272,16 @@ img.hover-shadow {
     font-size: 1.5rem;
 }
 
+.test {
+    font-weight: 900;
+}
+
 
 /*Footer*/
+
+.logo-footer {
+    width: 50%;
+}
 
 .page-footer,
 .footer-copyright {
@@ -288,7 +304,7 @@ img.hover-shadow {
 
 @media screen and (min-width: 768px) {
     .equipment-border {
-        border: 2px orange solid;
+        border: 2px #FFA500 solid;
     }
     #gallery-images {
         width: 65vw;
@@ -300,7 +316,8 @@ img.hover-shadow {
         background-color: #ffffff;
         text-align: left;
         height: auto;
-        width: 30vw;
+        width: 50vw;
+        font-size: 1.2rem;
     }
 }
 
